@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_standard_eighty">80dp</dimen>
+    <dimen name="diment_standard_hundred">100dp</dimen>
+    <dimen name="dimen_standard_sixteen">16dp</dimen>
+</resources>

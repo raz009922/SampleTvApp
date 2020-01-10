@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Sample Tv App</string>
+    <string name="string_genre">Genre</string>
+    <string name="string_tv_channel_name">Tv Channel Name</string>
+    <string name="string_play">Play</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_standard_eighty"
+    android:layout_marginStart="@dimen/dimen_standard_sixteen"
+    android:layout_marginEnd="@dimen/dimen_standard_sixteen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/layout_buttton_genres">
+
+        <TextView
+            android:id="@+id/text_channel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/string_tv_channel_name"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_buttton_genres"
+        android:layout_width="@dimen/diment_standard_hundred"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@id/layout_buttton_play">
+
+        <Button
+            android:id="@+id/button_genres"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:text="@string/string_genre"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_buttton_play"
+        android:layout_width="@dimen/diment_standard_hundred"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:id="@+id/button_play"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:text="@string/string_play"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_grey"
+        />
+
+</RelativeLayout>
